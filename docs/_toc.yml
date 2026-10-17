@@ -1,0 +1,23 @@
+format: jb-book
+root: intro
+parts:
+  - caption: External Resources
+    chapters:
+      - file: resources
+  - caption: Ocean Circulation
+    chapters:
+      - file: notebooks/circulation/overturning
+      - file: notebooks/circulation/barotropic
+  - caption: Ocean Heat
+    chapters:
+      - file: notebooks/heat/meridional_heat_transport
+      - file: notebooks/heat/heat_content
+  - caption: Sea Ice
+    chapters:
+      - file: notebooks/sea_ice/sea_ice_overview
+  - caption: Sea Level
+    chapters:
+      - file: notebooks/sea_level/sea_level_overview
+  - caption: Ice Shelves
+    chapters:
+      - file: notebooks/ice_shelves/ice_shelf_overview
